@@ -307,21 +307,19 @@ body > a {
 }
 
 .container .col .image {
-    background-image: url(../Images/services.JPG);
-    background-size: cover;
     margin-bottom: 100px;
-    width: 200px;
+    width: 240px;
     height: 240px;
     position: relative;
 }
-/* 
+
 .container .col .image img {
     width: 200px;
     height: 240px;
     position: absolute;
     top: 30px;
     right: 0;
-} */
+}
 
 .container .col .image::after {
     content: '';
@@ -329,7 +327,6 @@ body > a {
     width: 80px;
     height: 300px;
     position: absolute;
-    top: -30px;
     right: -30px;
     z-index: -1;
 }
